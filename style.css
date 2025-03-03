@@ -1,16 +1,29 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    color: antiquewhite;
+    background: linear-gradient(rgb(3, 34, 92), rgb(31, 116, 173));
+    background-repeat: no-repeat;
+    min-height: 100vh;
 }
 
 h1 {
-    color: #333;
+    color: antiquewhite;
 }
 
 .project {
     margin: 20px;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #fff;
     display: inline-block;
     width: 300px;
+    color: whitesmoke;
+    background-image: url('84-367x267.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;
 }
